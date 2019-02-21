@@ -1,3 +1,1 @@
-
-RUN ls -la
-RUN pwd
+FROM alpine
