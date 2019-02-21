@@ -1,2 +1,2 @@
 FROM alpine
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile Gemfile.lock 
