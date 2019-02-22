@@ -1,4 +1,5 @@
 #ARG image
 FROM alpine
-RUN echo "$image"
+ARG argument
+RUN echo $argument
 #FROM $image
