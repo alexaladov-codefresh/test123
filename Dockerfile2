@@ -1,2 +1,4 @@
-ARG image
-FROM $image
+#ARG image
+FROM alpine
+RUN echo "$image"
+#FROM $image
