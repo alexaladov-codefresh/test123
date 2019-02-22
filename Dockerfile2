@@ -1,7 +1,7 @@
 #ARG image
-FROM alpine
+FROM alpine as builder
 ARG argument
 ARG image
 RUN echo $argument
 RUN echo $image
-#FROM $image
+FROM $image as runner
