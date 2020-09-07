@@ -103,7 +103,7 @@
     "core-js": "^3.0.1",
     "dayjs": "^1.8.9",
     "global": "^4.3.2",
-    "handlebars": "4.2",
+    "handlebars": "4.7",
     "inputmask": "^4.0.8",
     "localforage": "^1.7.3",
     "lodash": "^4.17.15",
